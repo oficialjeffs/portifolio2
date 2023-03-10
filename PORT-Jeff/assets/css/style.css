@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/assets/img/Design\ sem\ nome.png);
+    background-size:cover;
+}
+/*---------------CABEÇALHO---------------*/
+
+header{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+header img{
+    
+    width: 5rem;
+}
+
+header ul{
+    
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+header ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem;
+    list-style: none;
+
+}
+
+header #black{
+
+    font-weight:bold;
+    border-radius: 0.4rem;
+
+    color: white;
+
+    padding: 0.7rem;
+    background-color: black;
+}
+
+
+
+header .language{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    width: 5rem;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+
+
+/*-------------Section-----------------*/
+section{
+    margin-top: 4rem;
+    display: flex;
+
+    
+    justify-content: left;
+    margin-left: 5rem;
+}
+
+
+
+section .container1{
+
+    margin-top:3rem ;
+    width: 35em;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+section .osps{
+    margin-top: 2rem;
+    display: flex;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+
+
+section #james{
+    color: red;
+    margin-inline: 1rem;
+}
+
+
+section #textinho{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+button{
+    margin-top: 1.5rem;
+    width: 10rem;
+    height: 3rem;
+
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+    border-radius: 0.6rem;
+}
